@@ -1,0 +1,37 @@
+=== ANÁLISIS DE REGRESIÓN LOGARÍTMICA (Numpy) ===
+
+Hash - insert (masivo):
+  Modelo: 304.64 · log₂(n) + -3188.78
+  R² = 0.8287
+
+Hash - search (hit):
+  Modelo: -2.75 · log₂(n) + 172.83
+  R² = 0.4265
+
+Hash - delete (exitoso):
+  Modelo: 38.41 · log₂(n) + -219.04
+  R² = 0.8465
+
+AVL - insert (masivo):
+  Modelo: 428.24 · log₂(n) + -2090.05
+  R² = 0.9412
+
+AVL - search (hit):
+  Modelo: 25.04 · log₂(n) + 110.98
+  R² = 0.9368
+
+AVL - delete (exitoso):
+  Modelo: 378.36 · log₂(n) + -1370.38
+  R² = 0.9541
+
+BPlus - insert (masivo):
+  Modelo: 492.78 · log₂(n) + -3952.76
+  R² = 0.8380
+
+BPlus - search (hit):
+  Modelo: 132.16 · log₂(n) + 619.38
+  R² = 0.8133
+
+BPlus - delete (exitoso):
+  Modelo: 694.83 · log₂(n) + -6024.52
+  R² = 0.8841
