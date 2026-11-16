@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# System
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Datos y Gráficas (opcional, pero sugerido para repos)
+resultados_estructuras.csv
+estadisticas_estructuras.csv
+*.png
+*.txt
+EOF
