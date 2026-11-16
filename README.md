@@ -19,30 +19,30 @@ pip install -r requirements.txt
 
 ## Ejecución y Reproducción de Experimentos
 1. Generar datos y mediciones (esto generará `resultados_estructuras.csv`):
-   `python3 pruebas_estructuras.py`
+   `cd src && python3 pruebas_estructuras.py`
 2. Generar análisis, estadísticas y gráficas:
-   `python3 analisis_graficas_estructuras.py`
-3. Los resultados (gráficas y tablas LaTeX) se encontrarán en el directorio actual.
+   `cd src && python3 analisis_graficas_estructuras.py`
+3. Los resultados (gráficas y tablas LaTeX) se encontrarán en los directorios `assets/` y la raíz.
 
 ## Control de Semillas
-- Se utiliza `random.seed(42)` en `pruebas_estructuras.py` para garantizar reproducibilidad.
+- Se utiliza `random.seed(42)` en `src/pruebas_estructuras.py` para garantizar reproducibilidad.
 
 ## Resultados Visuales
 
 ### Inserción Comparativa
-![Inserción Hash vs AVL vs B+](grafica_insert_comparativa.png)
+![Inserción Hash vs AVL vs B+](assets/grafica_insert_comparativa.png)
 
 ### Búsqueda Exitosa Comparativa
-![Búsqueda Hash vs AVL vs B+](grafica_search_comparativa.png)
+![Búsqueda Hash vs AVL vs B+](assets/grafica_search_comparativa.png)
 
 ### Eliminación Comparativa
-![Eliminación Hash vs AVL vs B+](grafica_delete_comparativa.png)
+![Eliminación Hash vs AVL vs B+](assets/grafica_delete_comparativa.png)
 
 ### Altura AVL vs B+
-![Comparación de Alturas](grafica_altura_avl_bplus.png)
+![Comparación de Alturas](assets/grafica_altura_avl_bplus.png)
 
 ### Factor de Carga Hash
-![Comportamiento Hash (Rehash)](grafica_factor_carga_hash.png)
+![Comportamiento Hash (Rehash)](assets/grafica_factor_carga_hash.png)
 
 ### Escaneo de Rango (B+)
-![Escaneo Rango B+](grafica_range_scan_bplus.png)
+![Escaneo Rango B+](assets/grafica_range_scan_bplus.png)

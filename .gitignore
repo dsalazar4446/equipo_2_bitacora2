@@ -11,7 +11,6 @@ venv/
 .AppleDouble
 .LSOverride
 
-# Datos y Gráficas (opcional, pero sugerido para repos)
+# Datos y tablas (Ignoramos csv, pero NO imágenes ni txt)
 resultados_estructuras.csv
 estadisticas_estructuras.csv
-EOF
