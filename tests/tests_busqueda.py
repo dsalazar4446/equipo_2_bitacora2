@@ -1,5 +1,10 @@
+import sys
+import os
 import pytest
 from hypothesis import given, strategies as st
+
+# Añadir src al path para importar
+sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
 from estructuras_busqueda import TablaHash, AVL, BPlus
 
 # --- 1. Pruebas Unitarias (Casos Límite) ---

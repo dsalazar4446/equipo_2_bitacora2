@@ -363,7 +363,7 @@ def main():
     print(f"Repeticiones por caso: {repeticiones}")
     print("=" * 60)
 
-    with open('resultados_estructuras.csv', 'w', newline='') as f:
+    with open('../resultados_estructuras.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['n', 'estructura', 'operacion', 'caso', 'tiempo_ns'])
 

@@ -2,15 +2,27 @@
 
 Repositorio para el análisis de Tabla Hash, Árboles AVL y Árboles B+.
 
+## Clonación del Repositorio
+```bash
+git clone https://github.com/dsalazar4446/equipo2_bitacora2.git
+cd equipo2_bitacora2
+```
+
 ## Requisitos
 - Python 3.15+
-- Dependencias: `pip install -r requirements.txt`
+- Entorno virtual recomendado:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-## Ejecución
-1. Generar datos y mediciones:
+## Ejecución y Reproducción de Experimentos
+1. Generar datos y mediciones (esto generará `resultados_estructuras.csv`):
    `python3 pruebas_estructuras.py`
-2. Generar análisis y gráficas:
+2. Generar análisis, estadísticas y gráficas:
    `python3 analisis_graficas_estructuras.py`
+3. Los resultados (gráficas y tablas LaTeX) se encontrarán en el directorio actual.
 
 ## Control de Semillas
 - Se utiliza `random.seed(42)` en `pruebas_estructuras.py` para garantizar reproducibilidad.
